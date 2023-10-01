@@ -1,0 +1,221 @@
+:root {
+    --black: #000;
+    --grey: #121212;
+    --light-grey: #232323;
+    --white: #fff;
+  }
+  body,
+  html {
+    height: 100%;
+    margin: 0rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito", sans-serif;
+    /* background-color: var(--black); */
+    color: var(--white);
+  }
+  
+  a {
+    color: var(--white);
+    text-decoration: none;
+    line-height: 5px;
+  }
+  
+    .container {
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+        background-color: var(--black);
+        padding: 0.5rem;
+        flex-wrap: wrap;
+      }
+
+  .sidebar{
+    flex: 0.20;
+    background-color: var(--black);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  .main-container{
+    flex: .80;
+    background-color: var(--light-grey);
+    overflow-y: scroll;
+    height: 85vh; 
+  }
+  .spotify-logo{
+    width: 202.58px;
+    margin-top: 0.5rem;
+    height: 60.53px;
+    margin-bottom: 0.5rem;
+    /*
+    top: 39.29px;
+    left: 35.82px; */
+
+  }
+  .spotify-logo:hover{
+    background-color: var(--light-grey)
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  .link-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0.7;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    cursor: pointer;
+    flex-wrap: wrap;
+    padding: 1rem;
+    box-shadow: aqua;
+  }
+  .link-flex:hover{
+    opacity: 1;
+    background-color: var(--light-grey);
+    border-radius: 5px;
+  }
+  #s-playlist{
+    margin-top: 0.8rem;
+  }
+  #fav{
+    margin-top: 0.8rem;
+  }
+  #install{
+     /* margin-top: 1.5rem; */
+  }
+  .plus{
+    background-color: white;
+  }
+  .footer{
+    background-color: var(--light-grey);
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222, #1F1F1F, #171717, #161616, #151515, #131313, #121212, #121212, #121212, #12121200;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: var(--light-grey);
+  }
+  #profile-id{
+    background-color: var(--black);
+    border-radius: 10px;
+    margin-right: 10px;
+    gap: 0.3rem;
+    padding: 0.3rem;
+  }
+  .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: var(--black);
+    border-radius: 20px; */
+  }
+  .player:hover{
+    background-color: var(--grey);
+  }
+  #gud-mrng{
+    margin-inline: 20px;
+    margin-bottom: 10px;
+    font-weight: 900px;
+    font-size: larger;
+    margin-top: 50px;
+  }
+  #heading{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding-inline: 20px; */
+    margin: 20px;
+    margin-top: 30px;
+  }
+  .see{
+    color: #b3b3b3
+  }
+  .see:hover{
+    color: white;
+  }
+  .cards-container {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    /* Other styles as needed */
+  }
+  
+  .card {
+    width: 150px;
+    background-color: var(--black);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    height: fit-content;
+    margin: 0rem 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 2s;
+  }
+  .card:hover{
+    transform: scale(1.2);
+      }
+
+  .device-name{
+    background-color: #1ed760;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  .one{
+    padding-inline: 15px;
+    margin-inline: 20px;
+    color: var(--light-grey)
+  }
+  .div-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+  }
+  .music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    margin-inline: 20px;
+  }
+  .div-one-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 10px;
+    margin-inline: 10px;
+  }
+  .nef{
+    color: #b3b3b3;
+  }
+  .div-two{
+    margin-right: 20px;
+  }
+  
