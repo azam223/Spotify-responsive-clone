@@ -227,7 +227,7 @@
       width: 20vw;
     }
     .music-player-option > img {
-      width: 50vw !important;
+      width: 200px !important;
     }
     .main-container, .main-container-2 {
       flex: 1 !important;
@@ -237,14 +237,24 @@
     }
     .navbar{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
+      justify-content: space-between;
     }
     footer{
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+    .cards-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .div-one>img{
+      width: 70px;
+    }
+
   }
   hr{
     color: var(--light-grey) !important;
