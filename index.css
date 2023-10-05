@@ -224,10 +224,10 @@
       width: 30vw;
     }
     .div-two {
-      width: 20vw;
+      width: 200px;
     }
     .music-player-option > img {
-      width: 200px !important;
+      width: 300px !important;
     }
     .main-container, .main-container-2 {
       flex: 1 !important;
@@ -252,7 +252,12 @@
       align-items: center;
     }
     .div-one>img{
-      width: 70px;
+      width: 150px;
+    }
+    .music-player{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
     }
 
   }
